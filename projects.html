@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects | Jubril Muhammad</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER + NAVIGATION (same on every page) -->
+  <header class="site-header">
+    <a class="logo" href="index.html">Jubril Muhammad</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">My Projects</a></li>
+        <li><a href="planner.html">Academic Planner</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <h1>My Projects</h1>
+    <p>These are beginner practice projects for learning HTML, CSS and JavaScript. The View Project links are placeholders. Replace them with your real GitHub links when ready.</p>
+    <div class="grid">
+      <article class="card project">
+        <div class="project-img">&#128100;</div>
+        <h3>Personal Profile Webpage</h3>
+        <p>A simple page about me using HTML headings, images, lists and links.</p>
+        <a class="btn small" href="https://github.com/" target="_blank" rel="noopener">View Project</a>
+      </article>
+      <article class="card project">
+        <div class="project-img">&#128290;</div>
+        <h3>Simple Calculator</h3>
+        <p>A basic calculator that adds, subtracts, multiplies and divides using JavaScript.</p>
+        <a class="btn small" href="https://github.com/" target="_blank" rel="noopener">View Project</a>
+      </article>
+      <article class="card project">
+        <div class="project-img">&#128221;</div>
+        <h3>Student Registration Form</h3>
+        <p>An HTML form with inputs and simple JavaScript checks, like the contact form on this site.</p>
+        <a class="btn small" href="contact.html">View Project</a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Jubril Muhammad | Miva Open University | COS 106 Term Project</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

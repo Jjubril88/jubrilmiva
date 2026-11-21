@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Jubril Muhammad</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER + NAVIGATION (same on every page) -->
+  <header class="site-header">
+    <a class="logo" href="index.html">Jubril Muhammad</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">My Projects</a></li>
+        <li><a href="planner.html">Academic Planner</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <h1>About Me</h1>
+    <section class="two-col">
+      <img class="about-photo" src="images/profile.jpg" alt="Jubril Muhammad">
+      <div>
+        <h2>Introduction</h2>
+        <p>My name is Jubril Muhammad. I am a university student who is learning to build websites. I am still developing my skills and working towards becoming a Software Engineer.</p>
+        <h2>Career Aspiration</h2>
+        <p>I want to become a <strong>Software Engineer</strong> and build useful software that solves real problems.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Educational Background</h2>
+      <!-- A table shows education in rows and columns -->
+      <table>
+        <thead><tr><th>Level</th><th>School</th></tr></thead>
+        <tbody>
+          <tr><td>Primary</td><td>As-Siddiq School</td></tr>
+          <tr><td>Secondary</td><td>Command Day Secondary School, Ikeja</td></tr>
+          <tr><td>University</td><td>Miva Open University</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Technical Skills (Still Learning)</h2>
+      <table>
+        <thead><tr><th>Skill</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>HTML5</td><td>Learning the basics</td></tr>
+          <tr><td>CSS3</td><td>Learning the basics</td></tr>
+          <tr><td>JavaScript</td><td>Learning the basics</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Hobbies and Interests</h2>
+      <ul class="tags">
+        <li>Learning new technologies</li>
+        <li>Problem solving</li>
+        <li>Reading</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Listen</h2>
+      <p>A short sample audio clip (shows the HTML audio element):</p>
+      <audio controls>
+        <source src="audio/welcome.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Jubril Muhammad | Miva Open University | COS 106 Term Project</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | Jubril Muhammad</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER + NAVIGATION (same on every page) -->
+  <header class="site-header">
+    <a class="logo" href="index.html">Jubril Muhammad</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">My Projects</a></li>
+        <li><a href="planner.html">Academic Planner</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <h1>Contact Me</h1>
+    <section class="two-col top">
+      <div>
+        <h2>My Details</h2>
+        <ul class="details">
+          <li><strong>Name:</strong> Jubril Muhammad</li>
+          <li><strong>Email:</strong> <a href="mailto:M.jubril7897@miva.edu.ng">M.jubril7897@miva.edu.ng</a></li>
+          <li><strong>Phone:</strong> <a href="tel:08120240038">08120240038</a></li>
+        </ul>
+        <p class="note">Note: this form only checks your input in the browser. It does not send an email. Sending real emails needs a backend server or an external service.</p>
+      </div>
+      <form id="contactForm" novalidate>
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName">
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+        <button type="submit" class="btn">Submit</button>
+        <p id="formMessage" class="message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Jubril Muhammad | Miva Open University | COS 106 Term Project</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
